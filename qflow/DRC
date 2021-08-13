@@ -1,0 +1,28 @@
+Qflow DRC logfile created on Friday 13 August 2021 10:41:30 PM IST
+magic -dnull -noconsole  /home/balakrishna/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/qflow/layout/run_drc_dvsd_4bit_binary_counter.tcl
+
+Magic 8.3 revision 50 - Compiled on Friday 13 August 2021 01:31:11 PM IST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+Loading "/home/balakrishna/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/qflow/layout/run_drc_dvsd_4bit_binary_counter.tcl" from command line.
+Reading LEF data from file /usr/local/share/qflow/tech/osu035_redm4/osu035_redm4_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 3179 lines.
+Scaled magic input cell dvsd_4bit_binary_counter geometry by factor of 2
+Processing timestamp mismatches: BUFX2, INVX1, FILL, DFFPOSX1, AOI21X1, OAI21X1, NOR2X1, NAND3X1, NAND2X1, AND2X2.
+drc = 0
+DRC checking script ended on Friday 13 August 2021 10:41:31 PM IST
+
+
