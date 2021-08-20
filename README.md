@@ -79,27 +79,37 @@ Once you are sure the docker is present, you have to make mount of the current f
 make mount
 
 ```
+![T-1](https://user-images.githubusercontent.com/88899069/130261505-b1a52cc4-6ef8-4abc-a47c-bae0914f3a41.png)
+
+
 Now lets test a design which is already present in `openlane/designs` type 
 
-```sh
-bash-4:$ ./flow.tcl -design dvsd_cmp -interactive 
-```
 
 ```sh
 bash-4:$
 
-./flow.tcl -design dvsd_cmp -tag <wher you tag this file name>
-
-> which shall display the "successful" message. 
+./flow.tcl -design dvsd_4bit_binary_counter -tag binary_counter_bala
 
 ```
+![T-2](https://user-images.githubusercontent.com/88899069/130261987-11f954b3-f085-4842-8d7e-52ee59ab250e.png)
+
+
+which shall display the "successful" message.
+![success_T-9](https://user-images.githubusercontent.com/88899069/130263259-84a11fb6-2600-4975-99de-1f99d78cb3e0.png)
+
 
 ## Step 5: magic layout generate 
 
+![T-10](https://user-images.githubusercontent.com/88899069/130263482-1cae4239-1f15-4370-bf50-48deca90239a.png)
+
 
 ```sh
 bash-4:$
 
-magic <file name>
+magic dvsd_4bit_binary_counter.mag
 
 ```
+![Screenshot from 2021-08-20 21-52-38](https://user-images.githubusercontent.com/88899069/130264092-1211e24a-ab7b-4c75-9b3a-03df196cc362.png)
+![magic_layout(1)](https://user-images.githubusercontent.com/88899069/130264133-08094a4a-d5e8-41d0-8463-b5da329835de.png)
+
+
