@@ -1,0 +1,108 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO dvsd_4bit_binary_counter
+  CLASS BLOCK ;
+  FOREIGN dvsd_4bit_binary_counter ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 62.175 BY 72.895 ;
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 26.160 56.580 27.760 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 18.000 56.580 19.600 ;
+    END
+  END VPWR
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 58.175 49.000 62.175 49.600 ;
+    END
+  END clk
+  PIN out[0]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 31.370 0.000 31.650 4.000 ;
+    END
+  END out[0]
+  PIN out[1]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 46.280 4.000 46.880 ;
+    END
+  END out[1]
+  PIN out[2]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END out[2]
+  PIN out[3]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 13.890 68.895 14.170 72.895 ;
+    END
+  END out[3]
+  PIN reset
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 46.090 68.895 46.370 72.895 ;
+    END
+  END reset
+  PIN updown
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 58.175 1.400 62.175 2.000 ;
+    END
+  END updown
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 56.580 59.925 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 56.580 60.080 ;
+      LAYER met2 ;
+        RECT 0.100 68.615 13.610 68.895 ;
+        RECT 14.450 68.615 45.810 68.895 ;
+        RECT 46.650 68.615 52.810 68.895 ;
+        RECT 0.100 4.280 52.810 68.615 ;
+        RECT 0.650 1.515 31.090 4.280 ;
+        RECT 31.930 1.515 52.810 4.280 ;
+      LAYER met3 ;
+        RECT 4.000 50.000 58.175 60.005 ;
+        RECT 4.000 48.600 57.775 50.000 ;
+        RECT 4.000 47.280 58.175 48.600 ;
+        RECT 4.400 45.880 58.175 47.280 ;
+        RECT 4.000 2.400 58.175 45.880 ;
+        RECT 4.000 1.535 57.775 2.400 ;
+      LAYER met4 ;
+        RECT 13.230 10.640 48.870 60.080 ;
+      LAYER met5 ;
+        RECT 5.520 34.320 56.580 52.240 ;
+  END
+END dvsd_4bit_binary_counter
+END LIBRARY
+
