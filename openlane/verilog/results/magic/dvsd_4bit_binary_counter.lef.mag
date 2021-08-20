@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1629458244
+<< obsli1 >>
+rect 1104 2159 11316 11985
+<< obsm1 >>
+rect 14 2128 11316 12016
+<< metal2 >>
+rect 2778 13779 2834 14579
+rect 9218 13779 9274 14579
+rect 18 0 74 800
+rect 6274 0 6330 800
+<< obsm2 >>
+rect 20 13723 2722 13779
+rect 2890 13723 9162 13779
+rect 9330 13723 10562 13779
+rect 20 856 10562 13723
+rect 130 303 6218 856
+rect 6386 303 10562 856
+<< metal3 >>
+rect 11635 9800 12435 9920
+rect 0 9256 800 9376
+rect 11635 280 12435 400
+<< obsm3 >>
+rect 800 10000 11635 12001
+rect 800 9720 11555 10000
+rect 800 9456 11635 9720
+rect 880 9176 11635 9456
+rect 800 480 11635 9176
+rect 800 307 11555 480
+<< obsm4 >>
+rect 2646 2128 9774 12016
+<< metal5 >>
+rect 1104 5232 11316 5552
+rect 1104 3600 11316 3920
+<< obsm5 >>
+rect 1104 6864 11316 10448
+<< labels >>
+rlabel metal5 s 1104 5232 11316 5552 6 VGND
+port 1 nsew ground input
+rlabel metal5 s 1104 3600 11316 3920 6 VPWR
+port 2 nsew power input
+rlabel metal3 s 11635 9800 12435 9920 6 clk
+port 3 nsew signal input
+rlabel metal2 s 6274 0 6330 800 6 out[0]
+port 4 nsew signal output
+rlabel metal3 s 0 9256 800 9376 6 out[1]
+port 5 nsew signal output
+rlabel metal2 s 18 0 74 800 6 out[2]
+port 6 nsew signal output
+rlabel metal2 s 2778 13779 2834 14579 6 out[3]
+port 7 nsew signal output
+rlabel metal2 s 9218 13779 9274 14579 6 reset
+port 8 nsew signal input
+rlabel metal3 s 11635 280 12435 400 6 updown
+port 9 nsew signal input
+<< properties >>
+string LEFclass BLOCK
+string FIXED_BBOX 0 0 12435 14579
+string LEFview TRUE
+string GDS_FILE /openLANE_flow/designs/dvsd_4bit_binary_counter/runs/binary_counter_bala/results/magic/dvsd_4bit_binary_counter.gds
+string GDS_END 242890
+string GDS_START 113466
+<< end >>
+
