@@ -126,3 +126,37 @@ magic dvsd_4bit_binary_counter.mag
 
 ![tkcon_converter_spice_counter](https://user-images.githubusercontent.com/88899069/130330700-cdf8cd20-ac43-4816-b07c-da367d758bce.png)
 
+## Step 8: Post-layout simulation 
+command for post-layout simulation 
+![post-layout simulation command waveform](https://user-images.githubusercontent.com/88899069/130676619-274a5a5d-1ede-40de-abf7-63303c719678.png)
+
+
+Post-layout simulation waveform
+![post-layout waveform](https://user-images.githubusercontent.com/88899069/130677382-eb4df15d-34ed-4dbb-984f-487a9364a0a5.png)
+
+
+## Key points to Remember
+
+- Keep the top module name and design name always same, else errors would come in the design.
+
+## Area of improvement
+
+- To perform spice simulation of the final GDS layout.
+
+## References
+
+- [GitLab/OpenLane workshop](https://gitlab.com/gab13c/openlane-workshop)
+- [The OpenROAD Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
+- Ahmed Ghazy and Mohamed Shalan, "OpenLane: The Open-Source Digital ASIC Implementation Flow", Article No.21, Workshop on Open-Source EDA Technology (WOSET), 2020. [Paper](https://github.com/woset-workshop/woset-workshop.github.io/blob/master/PDFs/2020/a21.pdf)
+- [YOUTUBE/OpenLane Overview](https://www.youtube.com/watch?v=d0hPdkYg5QI)
+- [GitHUB/openlane_build_script](https://github.com/nickson-jose/openlane_build_script)
+- [GitLab/mythcore_synth](https://github.com/deepsita/mythcore_synth)
+
+## Acknowledgement
+
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+
+## Author
+
+- [Balakrishna Eppili](https://github.com/), Bachelor of Technology in Electronics & Communication Engineering,Dronacharya Group of Institutions,Greater Noida, U.P.
+
