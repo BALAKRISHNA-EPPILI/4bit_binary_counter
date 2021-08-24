@@ -5,7 +5,7 @@
 - [OPENLANE tool](#OPENLANE-tool)
 - [OpenLane ](#OpenLane)
 - [OpenLane design stages](#OpenLane-design-stages)
-- [Installation process](#Installation process)
+- [Installation process](#installation-process)
 	- [ Setting OpenLane and SKY130_PDK](#Setting-OpenLane-and-SKY130_PDK)
 - [Test](#Test)
 - [Opening OpenLane in Docker](#Opening-OpenLane-in-Docker)
