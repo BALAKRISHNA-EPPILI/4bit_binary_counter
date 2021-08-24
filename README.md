@@ -71,6 +71,16 @@ you can installed docker file following this link
 https://docs.docker.com/engine/install/
 
 
+## Step 5: Pre-layout Simulation
+
+This is how you can simulate your design.
+![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
+
+
+Pre-layout simulation waveform
+![pre-layout counter](https://user-images.githubusercontent.com/88899069/130675943-2c3108c5-ab0c-4a85-ae04-2bae657b57e6.png)
+
+
 ## Step 4: Running openlane
 
 Once you are sure the docker is present, you have to make mount of the current files in **openlane**
