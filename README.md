@@ -61,7 +61,7 @@ For more information check [here](https://openlane.readthedocs.io/)
 	- `CVC` - Performs Circuit Validity Checks
 
 
-### Step 1: Installation
+### Step 1: Installation process
 
 #### Preferred Prerequisites
 
