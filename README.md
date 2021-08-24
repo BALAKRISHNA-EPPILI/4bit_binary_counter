@@ -63,7 +63,7 @@ For more information check [here](https://openlane.readthedocs.io/)
 
 ### Step 1: Installation process
 
-#### Preferred Prerequisites
+#### Prerequisites
 
 - Preferred Ubuntu OS)
 - Docker 19.03.12+
@@ -148,7 +148,7 @@ https://docs.docker.com/engine/install/
 
 ## Step 4: Pre-layout Simulation
 
-This is how you can simulate your design.
+ Pre-layout simulatiom command
 ![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
 
 
@@ -202,7 +202,7 @@ magic dvsd_4bit_binary_counter.mag
 ![tkcon_converter_spice_counter](https://user-images.githubusercontent.com/88899069/130330700-cdf8cd20-ac43-4816-b07c-da367d758bce.png)
 
 ## Step 7: Post-layout simulation 
-command for post-layout simulation 
+ post-layout simulation command
 ![post-layout simulation command waveform](https://user-images.githubusercontent.com/88899069/130676619-274a5a5d-1ede-40de-abf7-63303c719678.png)
 
 
