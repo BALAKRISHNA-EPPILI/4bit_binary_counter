@@ -12,7 +12,7 @@
 - [Pre-layout Simulation](#Pre-layout-Simulation)
 - [Running openlane](#Running-openlane)
 - [Magic layout generate](#Magic-layout-generate)
-- 	- [ Tkcon converter into spice](#Tkcon-converter-into-spice)
+- 	- [tkcon converter into spice](#tkcon-converter-into-spice)
 - [Post-layout simulation](#Post-layout-simulation)
 - [Key points to Remember](#key-points-to-remember)
 - [Area of improvement](#area-of-improvement)
@@ -29,7 +29,7 @@ For more information check [here](https://openlane.readthedocs.io/)
 
 ![openlane flow 1](https://user-images.githubusercontent.com/80625515/130246106-18f73ccc-e8e1-4061-a1b0-8c14bdf711f1.png)
 
-### OpenLane design stages
+### OpenLane design stagest
 
 1. Synthesis
 	- `yosys` - Performs RTL synthesis
@@ -197,7 +197,7 @@ magic dvsd_4bit_binary_counter.mag
 ![Screenshot from 2021-08-20 21-52-38](https://user-images.githubusercontent.com/88899069/130264092-1211e24a-ab7b-4c75-9b3a-03df196cc362.png)
 ![magic_layout(1)](https://user-images.githubusercontent.com/88899069/130264133-08094a4a-d5e8-41d0-8463-b5da329835de.png)
 
-## Tkcon converter into spice
+## tkcon converter into spice
 
 ![tkcon_converter_spice_counter](https://user-images.githubusercontent.com/88899069/130330700-cdf8cd20-ac43-4816-b07c-da367d758bce.png)
 
