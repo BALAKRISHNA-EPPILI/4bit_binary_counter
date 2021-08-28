@@ -4,14 +4,14 @@ fabrication of a behavioral RTL (Register-Transfer Level) of an 4bit binary coun
 
 # Table of Contents
 
-- [Pre-layout Simulation](#Pre-layout-Simulation)
+- [Pre layout Simulation](#Pre-layout-Simulation)
 - [OPENLANE tool](#OPENLANE-tool)
 - [OpenLane ](#OpenLane)
 - [OpenLane design stages](#OpenLane-design-stages)
 - [Installation process](#installation-process)
-	- [ Setting OpenLane and SKY130_PDK](#Setting-OpenLane-and-SKY130_PDK)
-- [Test](#Test)
-- [Opening OpenLane in Docker](#Opening-OpenLane-in-Docker)
+	- [Setting OpenLane and SKY130_PDK](#Setting-OpenLane-and-SKY130_PDK)
+	- [Test](#Test)
+	- [The Docker install](#The-Docker-install)
 - [Running openlane](#Running-openlane)
 - [Magic layout generate](#Magic-layout-generate)
 - 	- [tkcon converter into spice](#tkcon-converter-into-spice)
@@ -22,7 +22,7 @@ fabrication of a behavioral RTL (Register-Transfer Level) of an 4bit binary coun
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
 
-## Pre-layout Simulation
+## Pre layout Simulation
 
  Pre-layout simulatiom command
 ![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
@@ -202,11 +202,11 @@ magic dvsd_4bit_binary_counter.mag
 ![Screenshot from 2021-08-20 21-52-38](https://user-images.githubusercontent.com/88899069/130264092-1211e24a-ab7b-4c75-9b3a-03df196cc362.png)
 ![magic_layout(1)](https://user-images.githubusercontent.com/88899069/130264133-08094a4a-d5e8-41d0-8463-b5da329835de.png)
 
-## tkcon window
+ tkcon window
 
 ![tkcon_converter_spice_counter](https://user-images.githubusercontent.com/88899069/130330700-cdf8cd20-ac43-4816-b07c-da367d758bce.png)
 
-##  Post-layout simulation 
+##  Post layout simulation 
  post-layout simulation command
 ![post-layout simulation command waveform](https://user-images.githubusercontent.com/88899069/130676619-274a5a5d-1ede-40de-abf7-63303c719678.png)
 
