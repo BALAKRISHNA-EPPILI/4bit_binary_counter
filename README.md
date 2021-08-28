@@ -221,7 +221,8 @@ magic dvsd_4bit_binary_counter.mag
 
 
 Post-layout simulation waveform
-![post-layout waveform](https://user-images.githubusercontent.com/88899069/130677382-eb4df15d-34ed-4dbb-984f-487a9364a0a5.png)
+![Screenshot from 2021-08-28 18-13-21](https://user-images.githubusercontent.com/88899069/131218272-1d1e1643-877b-45bd-8602-0689e8d8a9bb.png)
+
 
 
 ## Key points to Remember
