@@ -1,7 +1,10 @@
 # 4bit binary counter(dvsd_4bit_binary_counter) RTL2GDS flow
+*The purpose of this project is to produce clean GDS (Graphic Design System) Final Layout with all details that is used to print photomasks used in 
+fabrication of a behavioral RTL (Register-Transfer Level) of a 10-bit Serializer, using SkyWater 130 nm PDK (Process Design Kit)*
 
 # Table of Contents
 
+- [Pre-layout Simulation](#Pre-layout-Simulation)
 - [OPENLANE tool](#OPENLANE-tool)
 - [OpenLane ](#OpenLane)
 - [OpenLane design stages](#OpenLane-design-stages)
@@ -9,7 +12,6 @@
 	- [ Setting OpenLane and SKY130_PDK](#Setting-OpenLane-and-SKY130_PDK)
 - [Test](#Test)
 - [Opening OpenLane in Docker](#Opening-OpenLane-in-Docker)
-- [Pre-layout Simulation](#Pre-layout-Simulation)
 - [Running openlane](#Running-openlane)
 - [Magic layout generate](#Magic-layout-generate)
 - 	- [tkcon converter into spice](#tkcon-converter-into-spice)
@@ -60,8 +62,16 @@ For more information check [here](https://openlane.readthedocs.io/)
 	- `Netgen` - Performs LVS Checks
 	- `CVC` - Performs Circuit Validity Checks
 
+## Pre-layout Simulation
 
-### Step 1: Installation process
+ Pre-layout simulatiom command
+![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
+
+
+Pre-layout simulation waveform
+![pre-layout counter](https://user-images.githubusercontent.com/88899069/130675943-2c3108c5-ab0c-4a85-ae04-2bae657b57e6.png)
+
+### Installation process
 
 #### Prerequisites
 
@@ -119,7 +129,7 @@ make full-pdk
 ```       
  
 
-## Step 2: Test
+##  Test
 
 On successful completion of previous step, then make test that verifies that the flow and the pdk were properly installed
 
@@ -132,7 +142,7 @@ Then show  display the "successful" message.
 
 Then follow the next step 
 
-## Step 3: The Docker install
+##  The Docker install
 
 If docker is installed, if you can see the docker version 19.* and above then docker is present and go to next step else install docker manually
 
@@ -146,17 +156,10 @@ you can installed docker file following this link
 https://docs.docker.com/engine/install/
 
 
-## Step 4: Pre-layout Simulation
-
- Pre-layout simulatiom command
-![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
 
 
-Pre-layout simulation waveform
-![pre-layout counter](https://user-images.githubusercontent.com/88899069/130675943-2c3108c5-ab0c-4a85-ae04-2bae657b57e6.png)
 
-
-## Step 5: Running openlane
+## Running openlane
 
 Once you are sure the docker is present, you have to make mount of the current files in **openlane**
 
@@ -183,7 +186,7 @@ which shall display the "successful" message.
 ![success_T-9](https://user-images.githubusercontent.com/88899069/130263259-84a11fb6-2600-4975-99de-1f99d78cb3e0.png)
 
 
-## Step 6: magic layout generate 
+##  magic layout generate 
 
 ![T-10](https://user-images.githubusercontent.com/88899069/130263482-1cae4239-1f15-4370-bf50-48deca90239a.png)
 
@@ -201,7 +204,7 @@ magic dvsd_4bit_binary_counter.mag
 
 ![tkcon_converter_spice_counter](https://user-images.githubusercontent.com/88899069/130330700-cdf8cd20-ac43-4816-b07c-da367d758bce.png)
 
-## Step 7: Post-layout simulation 
+##  Post-layout simulation 
  post-layout simulation command
 ![post-layout simulation command waveform](https://user-images.githubusercontent.com/88899069/130676619-274a5a5d-1ede-40de-abf7-63303c719678.png)
 
