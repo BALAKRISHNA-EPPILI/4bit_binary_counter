@@ -22,6 +22,15 @@ fabrication of a behavioral RTL (Register-Transfer Level) of a 10-bit Serializer
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
 
+## Pre-layout Simulation
+
+ Pre-layout simulatiom command
+![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
+
+
+Pre-layout simulation waveform
+![pre-layout counter](https://user-images.githubusercontent.com/88899069/130675943-2c3108c5-ab0c-4a85-ae04-2bae657b57e6.png)
+
 # OPENLANE tool
 
 ## OpenLane 
@@ -62,14 +71,7 @@ For more information check [here](https://openlane.readthedocs.io/)
 	- `Netgen` - Performs LVS Checks
 	- `CVC` - Performs Circuit Validity Checks
 
-## Pre-layout Simulation
 
- Pre-layout simulatiom command
-![simulation command](https://user-images.githubusercontent.com/88899069/130675440-4dff335a-5561-4192-be3c-f06e92111a1c.png)
-
-
-Pre-layout simulation waveform
-![pre-layout counter](https://user-images.githubusercontent.com/88899069/130675943-2c3108c5-ab0c-4a85-ae04-2bae657b57e6.png)
 
 ### Installation process
 
