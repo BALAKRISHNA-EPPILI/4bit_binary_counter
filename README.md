@@ -1,6 +1,6 @@
 # 4bit binary counter(dvsd_4bit_binary_counter) RTL2GDS flow
 *The purpose of this project is to produce clean GDS (Graphic Design System) Final Layout with all details that is used to print photomasks used in 
-fabrication of a behavioral RTL (Register-Transfer Level) of a 10-bit Serializer, using SkyWater 130 nm PDK (Process Design Kit)*
+fabrication of a behavioral RTL (Register-Transfer Level) of an 4bit binary counter, using SkyWater 130 nm PDK (Process Design Kit)*
 
 # Table of Contents
 
