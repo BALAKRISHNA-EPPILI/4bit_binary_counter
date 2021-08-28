@@ -5,7 +5,6 @@ fabrication of a behavioral RTL (Register-Transfer Level) of an 4bit binary coun
 # Table of Contents
 
 - [Design](#Design)
-- [Performance Specifications](#Performance-Specifications)
 - [Pin Configuration](#Pin-Configuration)
 - [Pre layout Simulation](#Pre-layout-Simulation)
 - [OPENLANE tool](#OPENLANE-tool)
@@ -26,9 +25,6 @@ fabrication of a behavioral RTL (Register-Transfer Level) of an 4bit binary coun
 
 ## Design 
 ![image](https://user-images.githubusercontent.com/88899069/131217542-dacf8cc3-6764-4b8f-b63f-c305ef5c586e.png)
-
-## Performance Specifications
-![image](https://user-images.githubusercontent.com/88899069/131217621-9c017944-a1fc-46b9-96d0-e72c4f23baa6.png)
 
 ## Pin Configuration
 ![image](https://user-images.githubusercontent.com/88899069/131217649-179fbb88-ba36-4333-bc7d-a8a3e65793c7.png)
